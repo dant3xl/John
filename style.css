@@ -6,6 +6,7 @@ body {
   background: #000;
 }
 .cont {
+  position: relative;
   width: 375px;
   height: 2165px;
   background: #fff;
@@ -22,6 +23,28 @@ body {
 }
 i {
   font-size: 30px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 375px;
+  height: 100vh;
+  background: #123456;
+  list-style-type: none;
+}
+.white-icon {
+  color: #fff;
+}
+.nav a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+
 }
 .img-wrapper {
   width: 170px;
