@@ -2,6 +2,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+:root{
+  scroll-behavior: smooth;
+}
 body {
   background: #000;
 }
@@ -23,6 +26,10 @@ body {
 }
 i {
   font-size: 30px;
+  cursor: pointer;
+}
+i:hover{
+  outline: 1px solid red;
 }
 .nav {
   display: none;
@@ -36,6 +43,12 @@ i {
   height: 100vh;
   background: #123456;
   list-style-type: none;
+}
+.nav *{
+  cursor: pointer;
+}
+.nav *:hover{
+  color: rgb(255, 196, 0)
 }
 .white-icon {
   color: #fff;

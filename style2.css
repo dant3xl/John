@@ -2,6 +2,9 @@
   box-sizing: border-box;
   margin: 0;
 }
+:root{
+  scroll-behavior: smooth;
+}
 body {
   background: #000;
 }
@@ -180,11 +183,22 @@ i {
   padding-inline: 16px;
   color: #E0E0E0;
 }
+.more {
+  margin-top: 10px;
+  text-align: center;
+}
+.more a {
+  color:#000;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 800;
+  font-family: Heebo;
+}
 .footer {
-  height: 182px;
+  height: 147px;
   width: 375px;
   position: absolute;
-  top: 1079px;
+  top: 1116px;
   display: flex;
   justify-content: center;
   flex-direction: column;

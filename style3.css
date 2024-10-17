@@ -2,6 +2,9 @@
     margin: 0;
     box-sizing: border-box;
   }
+  :root{
+    scroll-behavior: smooth;
+  }
   body {
     background: #000;
   }
@@ -19,6 +22,11 @@
     justify-content: flex-end;
     align-items: center;
     padding-inline: 15px;
+  }
+  .fa-circle-chevron-left {
+    text-decoration: none;
+    color: #000;
+    
   }
   i {
     font-size: 30px;
