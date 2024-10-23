@@ -27,6 +27,9 @@ body {
 i {
   font-size: 30px;
 }
+i:hover{
+  outline: 2px dashed #EC7C26;
+}
 .nav {
   display: none;
   align-items: center;
@@ -39,6 +42,12 @@ i {
   height: 100vh;
   background: #123456;
   list-style-type: none;
+}
+.nav *{
+  cursor: pointer;
+}
+.nav *:hover{
+  color: #308446;
 }
 .white-icon {
   color: #fff;
