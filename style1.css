@@ -30,6 +30,16 @@ i {
 i:hover{
   outline: 2px dashed #EC7C26;
 }
+.fa-circle-down:hover {
+  outline: none;
+}
+.down {
+  position: absolute;
+  left: 15px;
+}
+.down a {
+  color: #000;
+}
 .nav {
   display: none;
   align-items: center;
@@ -367,4 +377,14 @@ i:hover{
   width: 222px;
   height: 21px;
   margin-left: 74px;
+}
+.fa-circle-up:hover {
+  outline: none;
+}
+.up {
+  margin-left: 15px;
+  margin-top: -40px;
+}
+.up a {
+  color: #000;
 }
